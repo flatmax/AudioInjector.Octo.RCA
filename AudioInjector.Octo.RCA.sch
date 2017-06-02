@@ -29,7 +29,6 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:cs4270
-LIBS:spice
 LIBS:ak8111
 LIBS:mk1413
 LIBS:74hc_hct4040
@@ -39,7 +38,6 @@ LIBS:dsc1001
 LIBS:adau1701
 LIBS:wm8581
 LIBS:Lattice_iCE_FPGA
-LIBS:wm8580
 LIBS:cs42448
 LIBS:fxo-hc73
 LIBS:lme49724
@@ -68,7 +66,7 @@ F 1 "DAC_out" V 5250 4550 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x12" H 5250 3350 50  0001 C CNN
 F 3 "" H 5250 3350 50  0000 C CNN
 	1    5250 4550
-	0    1    -1   0   
+	0    1    1    0   
 $EndComp
 $Comp
 L CONN_02X12 P6
@@ -79,7 +77,7 @@ F 1 "ADC_in" V 6650 4550 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x12" H 6650 3350 50  0001 C CNN
 F 3 "" H 6650 3350 50  0000 C CNN
 	1    6650 4550
-	0    1    1    0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L R R35
